@@ -1,0 +1,30 @@
+node_modules
+src/lib/bold/**
+src/lib/duotone/**
+src/lib/fill/**
+src/lib/light/**
+src/lib/regular/**
+src/lib/thin/**
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+/dist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
