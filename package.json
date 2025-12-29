@@ -1,7 +1,7 @@
 {
 	"name": "phsv",
 	"description": "Phosphor is a flexible icon family for interfaces, diagrams, presentations — whatever, really.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Boe Reh",
 	"repository": "github:boereh/phsv",
 	"license": "MIT",
@@ -29,6 +29,30 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
+		},
+		"./bold": {
+			"types": "./dist/bold/index.d.ts",
+			"svelte": "./dist/bold/index.js"
+		},
+		"./duotone": {
+			"types": "./dist/duotone/index.d.ts",
+			"svelte": "./dist/duotone/index.js"
+		},
+		"./fill": {
+			"types": "./dist/fill/index.d.ts",
+			"svelte": "./dist/fill/index.js"
+		},
+		"./light": {
+			"types": "./dist/light/index.d.ts",
+			"svelte": "./dist/light/index.js"
+		},
+		"./regular": {
+			"types": "./dist/regular/index.d.ts",
+			"svelte": "./dist/regular/index.js"
+		},
+		"./thin": {
+			"types": "./dist/thin/index.d.ts",
+			"svelte": "./dist/thin/index.js"
 		}
 	},
 	"peerDependencies": {
